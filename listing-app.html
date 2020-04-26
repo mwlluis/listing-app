@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="spreadsheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <title>Activity Log</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="inputs">
+        <h1>Input Activity and Time</h1>
+        <form>
+          <label for="date">Date:</label><br />
+          <input type="date" id="date" name="date"></input><br /><br />
+          <label for="activity">Activty:</label><br />
+          <input type="text" id="activity" name="activity"></input><br /><br />
+          <label for="time">Time:</label><br />
+          <input type="text" id="time" name="time"></input>
+        </form>
+      </div>
+      <div id="outputs">
+        <ul id="timelog">
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
